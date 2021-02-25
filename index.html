@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>william gay and you can too</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+            h1, h2 {
+                font-family: 'Teko', 'shut your filthy face you stupid';
+                font-weight: 600;
+                margin: 0 auto;
+            }
+            body {
+                font-family: Arial, Helvetica;
+            }
+            #input {
+                display: block;
+                width: 100%;
+                height: 5em;
+            }
+            #spinner {
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Beat Saber Quest stack trace helper</h1>
+        <h2>Trace stack frames in libil2cpp.so to named methods</h2>
+
+        <div id="spinner">I'm loading, okay? Give me a break it's like 60MB of data...</div>
+
+        <label for="input">Paste your stack trace log here:</label>
+        <textarea id="input" name="input">
+
+        </textarea>
+        <hr />
+        <p id="output"></p>
+
+        <script src="bs-find-addr-web.js"></script>
+    </body>
+</html>
